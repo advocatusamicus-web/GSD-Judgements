@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Dataset metadata and downloaded judgments (never commit source data)
+Metadata/
+Justice_G_Sri_Devi_Judgments/
+data/
+*.parquet
+*.pdf
+*.tar
+*.tar.gz
+*.xlsx
+
+# Logs and local outputs
+Download_Logs/
+Reports/
+*.log
+.DS_Store
